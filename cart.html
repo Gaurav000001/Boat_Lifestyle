@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e41a797fac.js" crossorigin="anonymous"></script>
+    
+    
+    <link rel="stylesheet" href="/styles/cart.css">
+    <link rel="icon" href="/img/fav-icon.webp">
+    <title>Boat Lifestyle</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <ul class="left">
+                <li><a href="index.html"> <i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html" id="navbar-categories-btn" >Categories</a></li>
+                <li><span class="navbar-signin-btn" > signin/signup</span>   </li>
+            </ul>
+            <div class="center">BOAT_LIFESTYLE.</div>
+            <div class="right">
+                
+                <i class="fa-solid fa-magnifying-glass" id="navbar-search" ></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping cart-icon" id="navbar-cart-icon">
+                    <span id="cart-count">0</span>
+                </i>
+            </div>
+        </div>
+    </header>
+    <div class="parent-container">
+        <div class="container">
+            <div class="cart-div">
+                <div class="heading-div">Your Cart</div>
+                <hr>
+                <div class="cart-products-list-div">
+                    <!-- <div class="product-card">
+                        <div class="img-container">
+                            <img src="/img/headphones/14.webp" alt="">
+                        </div>
+                        <div class="details-div margin-top">
+                            <div class="name">Product Name</div>
+                        </div>
+                        <div class="quantity-buttons margin-top">
+                            <span>-</span>
+                            <span>5</span>
+                            <span>+</span>
+                        </div>
+                        <div class="product-total-div margin-top">
+                            <span class="cart-product-quantity">3</span>
+                            <span>x</span>
+                            <span class="cart-product-price" >&#8377;8000</span>
+                        </div>
+                        <i class="fa-solid fa-trash margin-top"></i>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="summary-div">
+                <div class="heading-div">Summary</div>
+                <hr>
+                <div class="subtotal-div">
+                    <span>Sub Total </span>
+                    <span class="sub-total-amount"> $ 0</span>
+                </div>
+                <div class="subtotal-div">
+                    <span>Discount </span>
+                    <span class="discount-amount"> $ 0</span>
+                </div>
+                <div class="subtotal-div">
+                    <span>Delivery Charge </span>
+                    <span class="Delivery-amount"> $ 0</span>
+                </div>
+                
+
+                <div class="cart-cupon-div">
+                    <span>Got Any Cupons</span>
+                    <div class="right">
+                        <input type="text" class="input-cupon" placeholder="BOAT50" id="input-cupon" >
+                        <button class="apply-cupon-btn">Apply</button>
+                    </div>
+                </div>
+
+
+                <div class="subtotal-div">
+                    <span>Total Amount </span>
+                    <span class="total-amount"> $ 0</span>
+                </div>
+
+                <button class="checkout-btn">CheckOut</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/scripts/cart.js"></script>
+</body>
+</html>

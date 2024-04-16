@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e41a797fac.js" crossorigin="anonymous"></script>
+    <!-- ///for login modal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="/styles/payment.css">
+    <link rel="icon" href="/img/fav-icon.webp">
+    <title>Boat | Payment</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <ul class="left">
+                <li><a href="index.html"> <i class="fa-solid fa-house"></i> Home</a></li>
+            </ul>
+            <div class="center">BOAT_LIFESTYLE.</div>
+        </div>
+    </header>
+
+    <!-- ////////  for login modal will show on login click -->
+    <div class="login-container">
+        <div class="container" id="container">
+            <h2>Your total cart amount is <span id="total-amount"> </span></h2>
+            <div class="upi-options">
+                <div class="upi-div">
+                    <input type="radio" name="gender" id="gpay">
+                    <img src="/img/gpay.png" alt="">
+                </div>
+                <div class="upi-div">
+                    <input type="radio" name="gender" id="phone-pe">
+                    <img src="/img/phone-pe.png" alt="">
+                </div>
+            </div>
+            
+            <div class="card-options">
+                <div class="card">
+                    <img src="/img/cards/1.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="/img/cards/2.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="/img/cards/3.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="/img/cards/4.png" alt="">
+                </div>
+            </div>
+
+            <div class="submit-details">
+                <!-- <label for="card-name">Name on Card:</label>
+                <input type="text" id="card-name" name="card-name" placeholder="Name on Card">
+            
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" placeholder="Card Number">
+            
+                <div class="expiry-div">
+                    <div class="expiry-div-inside">
+                        <label for="card-expiry">Expiry Date:</label>
+                        <input type="text" id="card-expiry" name="card-expiry" pattern="(0[1-9]|1[0-2])\/\d{4}" placeholder="MM/YYYY">
+                    </div>
+                    
+                    <div class="expiry-div-inside">
+                        <label for="card-cvc">CVC:</label>
+                        <input type="text" id="card-cvc" name="card-cvc" pattern="\d{3}" placeholder="CVC">
+                    </div>
+                </div> -->
+            
+                <button class="submit-button">
+                    
+                </button>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <script src="/scripts/payment.js" ></script>
+</body>
+</html>
