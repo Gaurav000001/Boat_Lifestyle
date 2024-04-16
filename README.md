@@ -29,7 +29,7 @@ Quickly set up and start the project with these steps:
 1. **Install the Project:**
    Clone and install the project's dependencies:
    ```bash
-   git clone https://github.com/Saurabh8657/Saurav_Boat.git
+   git clone https://github.com/Gaurav000001/Boat_Lifestyle.git
 ## Credentials
 
 Provide user credentials for authenticated pages:
@@ -62,5 +62,5 @@ Provide user credentials for authenticated pages:
 ![Product Page](https://github.com/Saurabh8657/Saurav_Boat/blob/main/img/screenshots/single.png)
 
 ## Author
-## [Saurabh Ganguly]
-## [LinkedIn](http://www.linkedin.com/in/saurabh-ganguly038)
+## [Gaurav Ganguly]
+## [LinkedIn](https://www.linkedin.com/in/gaurav-ganguly-bb7ba9246/)
